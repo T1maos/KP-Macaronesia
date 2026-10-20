@@ -1,0 +1,20 @@
+// fastsimcoal2 parameter search ranges for best_model.tpl
+// Times are in generations (generation time = 2.5 yr).
+[PARAMETERS]
+//#isInt? #name #dist #min #max
+//all Ns are in number of haploid individuals
+1  NPOP_AZO     logunif  10      1e5    output
+1  NPOP_CAV     logunif  10      1e5    output
+1  NPOP_CAN     logunif  10      1e5    output
+1  NPOP_ESP     logunif  100     1e6    output
+1  TDIV_AZO     logunif  10      2e4    output
+1  TDIV_CAV     logunif  100     1e5    output
+1  TDIV_CAN     logunif  500     2e5    output
+0  TEND         unif     0       1e3    hide
+0  MIG_AZO_CAV  logunif  1e-7    1e-3   output
+0  MIG_CAV_CAN  logunif  1e-7    1e-3   output
+0  MIG_CAN_ESP  logunif  1e-8    1e-4   output
+
+[RULES]
+
+[COMPLEX PARAMETERS]
