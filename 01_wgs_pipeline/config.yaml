@@ -1,8 +1,0 @@
-# Configuration for the Snakemake WGS pipeline (see Snakefile).
-
-# Reference genome FASTA (Kentish plover draft assembly)
-reference: /path/to/reference.fna
-
-# Sample IDs (one per resequenced individual; raw reads are expected at
-# data/raw/{sample}_1.fq.gz and data/raw/{sample}_2.fq.gz)
-samples: []
